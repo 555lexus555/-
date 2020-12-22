@@ -1,0 +1,17 @@
+.fs{
+font-size: 60px;
+}
+body{
+    overflow-x: hidden;
+}
+.random{
+    position: absolute;
+    top: -260px;
+    background-color: rgba(0, 0, 0, 0.041);
+    left: -150px;
+    z-index: -1;
+    width: 2220px;
+    height: 700px;
+    transform: rotate(-15deg);
+
+}
