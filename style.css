@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar > div *{
+    margin-bottom: 25px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    width: 61px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 11, 20, 0.88);;
+}
+.icons{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.icons-two{
+    flex-direction: column;
+    display: flex;
+    justify-items: flex-end;
+    padding: 10px;
+    
+}
+.pdd{
+    margin-top: 50px;
+}
+.fone{
+    background-color: #44BAFC;
+    height: 850px;
+    width: 100%;
+    margin-left: 61px;
+    
+}
+.logo {
+    font-size: 29px;
+    display: flex;
+    align-items: center;
+    padding-top:20px;
+    margin-left: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+    
+}
+.logo > span{
+    margin-left: 15px;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fs{
+    font-size: 110px;
+    font-weight: 1;
+}
+.text > p{
+    font-size: 27px;
+    margin-top: -100px;
+    
+    
+}
+.fone2{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    line-height: 5px;
+    
+    
+}
+.fone2 > h2{
+    font-weight: 1;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+.img-l{
+    margin-top: 25px;
+    margin-left: 130px;
+}
+.text-r{
+    margin-top: 180px;
+    margin-right: 250px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.text-r h2{
+    font-weight: 1;
+}
+.btn{
+width: 150px;
+height: 50px;
+background-color: #00A5EC;
+border: none;
+color: white;
+margin-top: 30px;
+}
