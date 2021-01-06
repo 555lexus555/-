@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+.links{
+    margin-left: auto;
+
+}
+.links > a{
+    color: black;
+    text-decoration: none;
+}
+.fone{
+background-color: #2F70FE;
+width: 5000px;
+height: 700px;
+position: absolute;
+margin-top:-230px ;
+transform: rotate(-2.5deg);
+margin-left: -50px;
+z-index: -1;
+}
+.text{
+    color: white;
+    margin-top: 120px;
+    
+}
+.but{
+    color: white;
+    background-color: black;
+    width: 160px;
+    height: 50px;
+    border: none;
+    margin-top: 25px;
+
+}
+.imgr{
+    margin-left: 500px;
+    margin-top: -190px;
+}
+
+
+.dic{
+    
+    position: absolute;
+width: 120px;
+height: 98px;
+left: 1200px;
+top: -100px;
+}
+.dic2{
+    position: absolute;
+width: 107px;
+height: 87px;
+left: 10px;
+top: 250px;
+
+}
+.list{
+    position: relative;
+}
+.content{
+    margin-top: 300px;
+}
+.photo{
+margin-top: -147px;
+}
+
+.photo2{
+    margin-top: -50px;
+}
+.photo3{
+    margin-top: -80px;
+}
+.photo4{
+    margin-top: -60px;
+}
+.photo5{
+    margin-top: -55px;
+}
+.textc{
+color: #2F70FE;
+}
+.end-fone{
+    background-color: black;
+    height: 500px;
+    color: white;
+    
+}
+.rod-div{
+    align-items: cente;
+    
+}
+
+.rod-div > div> p> * {
+    color: white;
+    text-decoration: none;
+}
+.texttt{
+margin-top: 120px;
+
+}
+.end-text{
+    color: white;
+}
+
+
