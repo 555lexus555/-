@@ -197,7 +197,8 @@ margin-left: 20px;
 display: flex;
 margin-left: 100px;
 }
-.burg{display: none;
+.carta{
+    margin-top: 80px;
 }
 @media(max-width:966px){
     .card{margin-top: 20px;}
