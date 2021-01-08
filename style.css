@@ -198,7 +198,7 @@ display: flex;
 margin-left: 100px;
 }
 .carta{
-    margin-top: 40px;
+    margin-top: 30px;
 }
 @media(max-width:966px){
     .card{margin-top: 20px;}
