@@ -1,0 +1,229 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    
+}
+.gradient{
+    min-height: 900px;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+.aaa > a{
+    text-decoration: none;
+    color: white;
+   
+}
+.btnn{
+    border-radius: 50px;
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+    width: 154px;
+    height: 52px;
+}
+.text{
+color: white;
+margin-top: 140px;
+}
+.text > h1{
+    font-weight: 900;
+}
+.btn1{
+    border-radius: 50px;
+    border: none;
+    color: rgb(0, 0, 0);
+    width: 177px;
+    height: 52px; 
+    font-weight: 500; 
+}
+.btn2{
+    border-radius: 50px;
+    border: solid white 1px;
+    background-color: transparent;
+    color: white;
+    width: 177px;
+    height: 52px;
+}
+.card-link{
+    text-decoration: none;
+    color: #03D6F3;
+}
+.content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+    
+}
+.card{
+width: 404px;
+height: 440px;
+box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+border-radius: 10px;
+
+}
+
+.card > img{
+  margin-left: -250px;  
+  margin-top: 50px;
+
+}
+.textt{
+    margin-left: 50px;
+}
+.textt > a{
+text-decoration: none;
+color: #03D6F3;
+}
+.card2{
+    width: 404px;
+    height: 440px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(230.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+}
+.img2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.process{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    flex-wrap: wrap;
+}
+.but1{
+    border-radius: 39px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    background-color: #03D6F3;
+    border: none;
+    width: 216px;
+    height: 52px;
+    color: white;
+}
+.but2{
+    border-radius: 39px;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border: 1px solid #30D7BA;
+    background-color: white;
+    color: #30D7BA;
+    width: 216px;
+    height: 52px;
+}
+.textbot{
+    margin-top: 150px;
+}
+
+.butt3{
+color: white;
+background-color: #03D6F3;
+width: 147px;
+height: 52px;
+border-radius: 39px;
+border: none;
+}
+.lcard{
+    width: 335px;
+height: 1000px;
+border: 1px solid #DEDEDE;
+border-radius: 10px;
+}
+.cardbut{
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    background: #03D6F3;
+    color: white;
+    width: 251px;
+    height: 52px;
+    border: none;
+    
+
+}
+.line{
+    margin-top: 150px;
+}
+.email{
+width: 220px;
+height: 2px;
+padding: 18px 29px;
+background: #EFEFEF;
+border: 1px solid #D0D0D0;
+box-sizing: border-box;
+border-radius: 6px;
+}
+.emailbut{
+    background: #03D6F3;
+    color: white;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.15);
+    border-radius: 39px;
+    border: none;
+    width: 160px;
+    height: 45px;
+
+}
+.endcontent{
+    background-color: #112D57;
+    height: 371px;
+    width: 100%;
+    margin-top: 100px;
+
+}
+.endtext{
+display: flex;
+justify-content: space-evenly;
+color: white;
+align-items: center;
+flex-wrap: wrap;
+
+}
+.icons{
+    margin-top: 50px;
+    margin-left: -20px;
+}
+.ic{
+margin-left: 20px;
+
+}
+.ltextt{
+    color: white;
+
+display: flex;
+margin-left: 100px;
+}
+.burg{display: none;
+}
+@media(max-width:966px){
+    .card{margin-top: 20px;}
+    .card2{margin-top: 20px;}
+    .aaa > a{
+        display: none;
+    }
+    .process{text-align: center;}
+    .but2{margin-top: 20px;}
+    .imog{width: 400px;}
+    .textbot{margin-top: -50px;}
+    .texttt{margin-top: 50px;}
+    .lcard{margin-top: 20px;}
+    .email{
+        width: 350px;
+    }
+    .emailbut{width: 350px;
+    margin-top: 20px;}
+    .emailbut{border-radius: 6px;}
+    .endcontent{
+        height: 680px;
+    }
+    .carta{margin-top: 50px;}
+    .tmobi{margin-top: 50px;}
+    .ltextt{display: none;}
+    .mobloc{margin-top: 50px;}
+    .btnn{width: 100px;}
+    
+}
